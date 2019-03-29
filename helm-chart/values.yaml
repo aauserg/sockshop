@@ -23,8 +23,8 @@ cartsBlue:
         name: carts
     image:
         pullPolicy: IfNotPresent
-        repository: null
-        tag: null
+        repository: 10.43.255.45:5000/sockshopcr/carts
+        tag: 0.6.1-5
     replicaCount: 1
     resources:
         limits:
@@ -43,7 +43,7 @@ cartsGreen:
         name: carts
     image:
         pullPolicy: IfNotPresent
-        repository: null
+        repository: 10.43.255.45:5000/sockshopcr/carts
         tag: null
     replicaCount: 1
     resources:
