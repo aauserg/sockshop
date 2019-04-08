@@ -24,7 +24,7 @@ cartsBlue:
     image:
         pullPolicy: IfNotPresent
         repository: 10.43.255.45:5000/sockshopcr/carts
-        tag: 0.6.2-6
+        tag: 0.6.2-9
     replicaCount: 1
     resources:
         limits:
